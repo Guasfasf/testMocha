@@ -4,7 +4,9 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import store from './store/index'
-
+import Echarts from 'echarts'
+Vue.use(Echarts)
+Vue.prototype.$echarts = Echarts
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
