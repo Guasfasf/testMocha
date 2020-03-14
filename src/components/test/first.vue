@@ -16,7 +16,7 @@ export default {
     return {
       listItems: ['buy food', 'play games', 'sleep'],
       newItem: '',
-      title: 'test List'
+      title: 'listComponent'
     }
   },
   methods: {

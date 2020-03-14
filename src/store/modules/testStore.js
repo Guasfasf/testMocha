@@ -5,7 +5,8 @@ const state = {
 
 // dispatch
 const actions = {
-  testGu () {
+  testGu (state, a) {
+    state.state.title = a
     console.log('dispatch')
   }
 }
